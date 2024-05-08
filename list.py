@@ -3,9 +3,8 @@ example = []
 for i in range(7):
     example.append(i)
 
-for element in example:
-    print(element)
-
+for index,element in enumerate(example):
+    print(element,index)
 
 #delete an element 
 example.remove(3) 
