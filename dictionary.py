@@ -37,6 +37,10 @@ contacts = {
     ]
 }
 
+nums = [1,2,3,4,2,3,4]
+counter = {number: nums.count(number) for number in nums}
+print(counter)
+#
 for contact in contacts['students']:
     print(contact['name'])
 

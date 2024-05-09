@@ -17,5 +17,4 @@ while(right_index < len(number_list)):
         left_index = right_index
     
     right_index += 1
-
 print(maxProfit)
