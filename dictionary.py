@@ -46,3 +46,7 @@ for contact in contacts['students']:
 
 for key,value in contacts.items():
     print(key,value)
+
+# get the first value from the dictionaryu 
+
+first = list(counter.values())[0]
