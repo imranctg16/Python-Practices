@@ -50,3 +50,9 @@ for key,value in contacts.items():
 # get the first value from the dictionaryu 
 
 first = list(counter.values())[0]
+
+# sort a dictionary based on their value 
+
+counter = {1:3,2:2,3:1}
+counter = sorted(counter.items(),key=lambda item:item[1])
+print(counter)
