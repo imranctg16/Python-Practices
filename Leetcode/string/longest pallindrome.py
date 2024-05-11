@@ -7,6 +7,7 @@ def character_counter(s):
         counter[s[i]] = 1 + counter.get(s[i],0)
     return counter 
 
+
 def longest_pallindrome(s):
     counter = character_counter(s)
     if(len(counter) == 1):
