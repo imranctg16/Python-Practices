@@ -32,6 +32,10 @@ class Solution:
             i += 1
 
         return res
+
+    def insert2(self,intervals,newInterval):
+        pass
+
 solution = Solution()
 
 intervals = [[1,3],[6,9]]
