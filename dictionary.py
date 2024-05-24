@@ -55,4 +55,6 @@ first = list(counter.values())[0]
 
 counter = {1:3,2:2,3:1}
 counter = sorted(counter.items(),key=lambda item:item[1])
+counter = {'A':1,'B':2}
+del counter['A']
 print(counter)
