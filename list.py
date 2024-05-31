@@ -8,7 +8,11 @@ for index,element in enumerate(example):
 
 #delete an element 
 example.remove(3) 
-
 list = [1,2,3,4,4]
 print(max(list[0:3+1]))
 del example[0] #remove using index
+
+#get last element from list 
+
+str = "Mohammad Imran Hossain"
+print(str.split()[-1])
