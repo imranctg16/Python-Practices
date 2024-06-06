@@ -13,6 +13,7 @@ class Solution:
         current_prefix = strs[0]
         for i in range(1,len(strs)):
             string = strs[i]
+            
             current_prefix = self.findCommon(current_prefix,string)
         return current_prefix
 
