@@ -16,3 +16,10 @@ del example[0] #remove using index
 
 str = "Mohammad Imran Hossain"
 print(str.split()[-1])
+
+# merge 
+nums1 = [1,2,3,0,0,0]
+m = 3
+nums2 = [2,5,6]
+n = 3
+nums1[:] = nums1[:m] + nums2
