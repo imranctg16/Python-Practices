@@ -1,13 +1,16 @@
 class SpecialArray:
     def specialArray(numbers):
-        for i in range(len(numbers)):
-            counter = 0
-            for number in numbers:
-                if i >= number:
-                    counter += 1
-            if counter == i+1:
-                return i+1
-            
+        numbers.sort()   
+        n = len(numbers)
+        
+        for x in range(n + 1):
+            count = 0
+            for num in numbers:
+                if num >= x:
+                    count += 1
+            if count == x:
+                return x
+    
         return -1
 
 numbers = [3,5]
