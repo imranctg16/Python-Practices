@@ -1,12 +1,12 @@
 class Solution:
     def destCity(self, paths: list[list[str]]) -> str:
-        dict = {}
-        for path in paths:
-            dict[path[0]] = path[1]
-        for path in paths:
-            if path[1] not in dict:
-                return path[1]
-        return ''
+      map = {}
+      for path in paths:
+         map[path[0]] = path[0]
+      for path in paths:
+         if path[1] not in map:
+            return path[1]
 
-solution = Solution().destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]])
+paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+solution = Solution().destCity(paths)
 print(solution)
