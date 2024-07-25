@@ -1,5 +1,3 @@
-
-
 total_numbers = int(input('Total number ?\n'))
 
 number_list = []
